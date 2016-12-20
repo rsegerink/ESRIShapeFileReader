@@ -19,7 +19,7 @@ using (Shapefile shapefile = new Shapefile("my.shp")
 }
 ```
 Shape is the base class for a set of more specific classes - ShapePoint, ShapeMultiPoint, ShapePolyLine and ShapePolygon. Cast to the appropriate class based on the Type property:
-```
+```csharp
 switch (shape.Type)
 {
     case ShapeType.Point:
