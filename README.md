@@ -3,7 +3,7 @@ ESRIShapeFileReader
 
 Reader for reading ESRI shapefiles, including any metadata.  All 2D shapes are supported: Point, MultiPoint, PolyLine and Polygon. 
 
-Based on Catfood.Shapefile 1.51 (http://shapefile.codeplex.com/) but it uses NDbfReader (https://github.com/eXavera/NDbfReader)
+Based on Catfood.Shapefile 1.51 (https://github.com/abfo/shapefile) but it uses NDbfReader (https://github.com/eXavera/NDbfReader)
 for reading the dBase metadata this solves any encoding issues, see: http://shapefile.codeplex.com/discussions/287190
 
 ## Example
